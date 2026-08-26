@@ -4,20 +4,52 @@
 <meta name="robots" content="noindex, nofollow">
 <title>홈판 초안</title>
 <style>
- body{font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif;
-   max-width:640px;margin:0 auto;padding:32px 20px 60px;color:#191418;line-height:1.6}
- h1{font-size:21px;margin:0 0 4px}
- p.sub{color:#7C7076;font-size:13.5px;margin:0 0 26px}
- ul{list-style:none;margin:0;padding:0}
- li{border-bottom:1px solid #E4DDDE}
- li a{display:block;padding:15px 4px;color:#C8102E;text-decoration:none;font-weight:600}
- li a:hover{background:#FBEDEF}
- .empty{color:#7C7076;padding:15px 4px}
- @media(prefers-color-scheme:dark){body{background:#131013;color:#F2ECEE}
-   li{border-color:#332C31} li a{color:#FF6A78} li a:hover{background:#331C21}}
-</style></head><body>
+ :root{--paper:#fff;--ground:#F4F1F1;--ink:#191418;--ink2:#4A4046;--muted:#7C7076;
+   --line:#E4DDDE;--accent:#C8102E;--accent-soft:#FBEDEF}
+ @media(prefers-color-scheme:dark){:root{--paper:#1C181B;--ground:#131013;--ink:#F2ECEE;
+   --ink2:#C4B9BE;--muted:#94888E;--line:#332C31;--accent:#FF6A78;--accent-soft:#331C21}}
+ *{box-sizing:border-box}
+ body{margin:0;background:var(--ground);color:var(--ink);line-height:1.6;
+   font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif}
+ .wrap{max-width:940px;margin:0 auto;padding:30px 18px 70px}
+ h1{font-size:23px;margin:0 0 4px;letter-spacing:-.01em}
+ .sub{color:var(--muted);font-size:13.5px;margin:0 0 8px}
+ section{margin-top:30px}
+ h2{font-size:13px;color:var(--muted);font-weight:600;letter-spacing:.04em;
+   margin:0 0 12px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+ .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+ .card{display:flex;flex-direction:column;background:var(--paper);border:1px solid var(--line);
+   border-radius:8px;overflow:hidden;text-decoration:none;color:inherit}
+ .card:hover{border-color:var(--accent)}
+ .card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:var(--ground)}
+ .card .meta{padding:12px 13px;display:flex;flex-direction:column;gap:5px}
+ .card b{font-size:15px;line-height:1.45;letter-spacing:-.01em}
+ .card span{font-size:12px;color:var(--muted)}
+ .card.bare .meta{padding:18px 14px}
+ .empty{color:var(--muted)}
+</style></head><body><div class="wrap">
 <h1>홈판 초안</h1>
-<p class="sub">날짜를 눌러 그날 묶음을 여세요. 총 2일치</p>
-<ul><li><a href="./20260826/">20260826</a></li>
-<li><a href="./20260821-top5/">20260821-top5</a></li></ul>
-</body></html>
+<p class="sub">제목을 눌러 바로 그 글로 들어갑니다 · 총 5편 / 2일치</p>
+<section><h2>2026.08.26 · 네이트 연예 관심뉴스</h2><div class="grid"><a class="card" href="./20260826/#p0">
+<img src="./20260826/covers/p0.jpg" alt="" loading="lazy">
+<div class="meta"><b>기름값도 없던 부부가 11년 만에 산 집</b>
+<span>OSEN · 최이정 기자 · 본문 1017자 · 사진 2장</span></div></a>
+<a class="card" href="./20260826/#p1">
+<img src="./20260826/covers/p1.jpg" alt="" loading="lazy">
+<div class="meta"><b>"덜덜덜, 아 왜 떨리지" 김보라가 올린 둘째 소식</b>
+<span>마이데일리 · 박서연 기자 · 본문 810자 · 사진 2장</span></div></a>
+<a class="card" href="./20260826/#p2">
+<img src="./20260826/covers/p2.jpg" alt="" loading="lazy">
+<div class="meta"><b>23년 동안 안 하던 걸 현빈이 했다</b>
+<span>스포츠서울 · 윤동언 기자 · 본문 897자 · 사진 2장</span></div></a>
+<a class="card" href="./20260826/#p3">
+<img src="./20260826/covers/p3.jpg" alt="" loading="lazy">
+<div class="meta"><b>"사실 내가 더 뛰어놈" 김지영의 자백</b>
+<span>스포츠조선 · 이게은 기자 · 본문 861자 · 사진 2장</span></div></a>
+<a class="card" href="./20260826/#p4">
+<img src="./20260826/covers/p4.jpg" alt="" loading="lazy">
+<div class="meta"><b>보러 갔다가 담요 덮고 잠든 고현정</b>
+<span>스타뉴스 · 김나연 기자 · 본문 849자 · 사진 2장</span></div></a></div></section>
+<section><h2>20260821-top5</h2><div class="grid"><a class="card bare" href="./20260821-top5/"><div class="meta"><b>20260821-top5</b>
+<span>이 날짜 묶음 열기</span></div></a></div></section>
+</div></body></html>

@@ -1,0 +1,45 @@
+{
+ "date": "2026.08.26 · 네이트 연예 관심뉴스",
+ "posts": [
+  {
+   "title": "기름값도 없던 부부가 11년 만에 산 집",
+   "cover": "covers/p0.jpg",
+   "src": "OSEN · 최이정 기자",
+   "anchor": "p0",
+   "chars": 1017,
+   "photos": 2
+  },
+  {
+   "title": "\"덜덜덜, 아 왜 떨리지\" 김보라가 올린 둘째 소식",
+   "cover": "covers/p1.jpg",
+   "src": "마이데일리 · 박서연 기자",
+   "anchor": "p1",
+   "chars": 810,
+   "photos": 2
+  },
+  {
+   "title": "23년 동안 안 하던 걸 현빈이 했다",
+   "cover": "covers/p2.jpg",
+   "src": "스포츠서울 · 윤동언 기자",
+   "anchor": "p2",
+   "chars": 897,
+   "photos": 2
+  },
+  {
+   "title": "\"사실 내가 더 뛰어놈\" 김지영의 자백",
+   "cover": "covers/p3.jpg",
+   "src": "스포츠조선 · 이게은 기자",
+   "anchor": "p3",
+   "chars": 861,
+   "photos": 2
+  },
+  {
+   "title": "보러 갔다가 담요 덮고 잠든 고현정",
+   "cover": "covers/p4.jpg",
+   "src": "스타뉴스 · 김나연 기자",
+   "anchor": "p4",
+   "chars": 849,
+   "photos": 2
+  }
+ ]
+}
