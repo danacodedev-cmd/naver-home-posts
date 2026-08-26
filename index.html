@@ -17,39 +17,53 @@
  section{margin-top:30px}
  h2{font-size:13px;color:var(--muted);font-weight:600;letter-spacing:.04em;
    margin:0 0 12px;padding-bottom:8px;border-bottom:1px solid var(--line)}
- .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
- .card{display:flex;flex-direction:column;background:var(--paper);border:1px solid var(--line);
-   border-radius:8px;overflow:hidden;text-decoration:none;color:inherit}
- .card:hover{border-color:var(--accent)}
- .card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:var(--ground)}
- .card .meta{padding:12px 13px;display:flex;flex-direction:column;gap:5px}
- .card b{font-size:15px;line-height:1.45;letter-spacing:-.01em}
- .card span{font-size:12px;color:var(--muted)}
- .card.bare .meta{padding:18px 14px}
+ .list{display:flex;flex-direction:column;gap:1px;background:var(--line);
+   border:1px solid var(--line);border-radius:8px;overflow:hidden}
+ .row{display:flex;align-items:center;gap:12px;background:var(--paper);
+   padding:10px 12px;text-decoration:none;color:inherit;min-width:0}
+ .row:hover{background:var(--accent-soft)}
+ .row img{width:64px;height:48px;object-fit:cover;border-radius:4px;flex:0 0 auto;
+   background:var(--ground)}
+ .row .t{flex:1 1 auto;min-width:0;font-size:15px;font-weight:600;line-height:1.4;
+   letter-spacing:-.01em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+ .row .m{flex:0 0 auto;font-size:12px;color:var(--muted)}
+ .row .c{flex:0 0 auto;color:var(--line);font-size:19px}
+ .row.bare{padding:15px 12px}
+ @media(max-width:640px){
+   .row{flex-wrap:wrap;row-gap:4px}
+   .row .t{white-space:normal;flex:1 1 100%;order:2}
+   .row .m{order:3;flex:1 1 100%}
+   .row img{order:1} .row .c{display:none}
+ }
  .empty{color:var(--muted)}
 </style></head><body><div class="wrap">
 <h1>홈판 초안</h1>
 <p class="sub">제목을 눌러 바로 그 글로 들어갑니다 · 총 5편 / 2일치</p>
-<section><h2>2026.08.26 · 네이트 연예 관심뉴스</h2><div class="grid"><a class="card" href="./20260826/#p0">
+<section><h2>2026.08.26 · 네이트 연예 관심뉴스</h2><div class="list"><a class="row" href="./20260826/#p0">
 <img src="./20260826/covers/p0.jpg" alt="" loading="lazy">
-<div class="meta"><b>기름값도 없던 부부가 11년 만에 산 집</b>
-<span>OSEN · 최이정 기자 · 본문 1017자 · 사진 2장</span></div></a>
-<a class="card" href="./20260826/#p1">
+<span class="t">조지환·박혜민, 기름값도 없던 부부의 11년</span>
+<span class="m">OSEN · 최이정 기자 · 981자</span>
+<span class="c">›</span></a>
+<a class="row" href="./20260826/#p1">
 <img src="./20260826/covers/p1.jpg" alt="" loading="lazy">
-<div class="meta"><b>"덜덜덜, 아 왜 떨리지" 김보라가 올린 둘째 소식</b>
-<span>마이데일리 · 박서연 기자 · 본문 810자 · 사진 2장</span></div></a>
-<a class="card" href="./20260826/#p2">
+<span class="t">김보라 "덜덜덜, 아 왜 떨리지"…팀 둘째 임신</span>
+<span class="m">마이데일리 · 박서연 기자 · 760자</span>
+<span class="c">›</span></a>
+<a class="row" href="./20260826/#p2">
 <img src="./20260826/covers/p2.jpg" alt="" loading="lazy">
-<div class="meta"><b>23년 동안 안 하던 걸 현빈이 했다</b>
-<span>스포츠서울 · 윤동언 기자 · 본문 897자 · 사진 2장</span></div></a>
-<a class="card" href="./20260826/#p3">
+<span class="t">현빈, 23년 동안 안 하던 걸 했다</span>
+<span class="m">스포츠서울 · 윤동언 기자 · 860자</span>
+<span class="c">›</span></a>
+<a class="row" href="./20260826/#p3">
 <img src="./20260826/covers/p3.jpg" alt="" loading="lazy">
-<div class="meta"><b>"사실 내가 더 뛰어놈" 김지영의 자백</b>
-<span>스포츠조선 · 이게은 기자 · 본문 861자 · 사진 2장</span></div></a>
-<a class="card" href="./20260826/#p4">
+<span class="t">김지영 "사실 내가 더 뛰어놈"…아들과 콘서트</span>
+<span class="m">스포츠조선 · 이게은 기자 · 824자</span>
+<span class="c">›</span></a>
+<a class="row" href="./20260826/#p4">
 <img src="./20260826/covers/p4.jpg" alt="" loading="lazy">
-<div class="meta"><b>보러 갔다가 담요 덮고 잠든 고현정</b>
-<span>스타뉴스 · 김나연 기자 · 본문 849자 · 사진 2장</span></div></a></div></section>
-<section><h2>20260821-top5</h2><div class="grid"><a class="card bare" href="./20260821-top5/"><div class="meta"><b>20260821-top5</b>
-<span>이 날짜 묶음 열기</span></div></a></div></section>
+<span class="t">고현정, 보러 갔다가 담요 덮고 잠들었다</span>
+<span class="m">스타뉴스 · 김나연 기자 · 813자</span>
+<span class="c">›</span></a></div></section>
+<section><h2>20260821-top5</h2><div class="list"><a class="row bare" href="./20260821-top5/">
+<span class="t">20260821-top5</span><span class="m">이 날짜 묶음 열기</span><span class="c">›</span></a></div></section>
 </div></body></html>

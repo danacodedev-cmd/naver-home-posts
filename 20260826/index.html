@@ -66,7 +66,10 @@ a.row:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
 .tnav{display:flex; align-items:center; justify-content:space-between; gap:10px}
 .back{background:var(--code); border:1px solid var(--line); color:var(--ink2); border-radius:6px;
   padding:7px 12px; font-size:13px; font-weight:700; text-decoration:none}
-.src2{font-size:12.5px; color:var(--muted)}
+.srclink{font-size:12.5px; color:var(--accent); text-decoration:none; font-weight:600;
+  border:1px solid var(--line); border-radius:6px; padding:6px 10px; white-space:nowrap}
+.srclink:hover{background:var(--accent-soft)}
+.srclink:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
 .tplabel{font-size:11.5px; color:var(--muted); font-family:"IBM Plex Mono",monospace;
   letter-spacing:.08em; margin:14px 0 8px}
 .tpick{display:flex; flex-direction:column; gap:7px}
@@ -164,32 +167,32 @@ a.row:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
   <a class="row" href="#p0">
 <img data-k="i1" alt="" data-file="01_cover.jpg" >
 <div class="rmeta"><span class="rbadge">1순위 추천</span>
-<b>기름값도 없던 부부가 11년 만에 산 집</b>
-<span class="rsub">OSEN · 최이정 기자 · 본문 1042자 · 사진 2장</span></div>
+<b>조지환·박혜민, 기름값도 없던 부부의 11년</b>
+<span class="rsub">OSEN · 최이정 기자 · 본문 1006자 · 사진 2장</span></div>
 <span class="chev">›</span></a>
 <a class="row" href="#p1">
 <img data-k="i3" alt="" data-file="02_cover.jpg" >
 <div class="rmeta"><span class="rbadge">2순위 추천</span>
-<b>&quot;덜덜덜, 아 왜 떨리지&quot; 김보라가 올린 둘째 소식</b>
-<span class="rsub">마이데일리 · 박서연 기자 · 본문 841자 · 사진 2장</span></div>
+<b>김보라 &quot;덜덜덜, 아 왜 떨리지&quot;…팀 둘째 임신</b>
+<span class="rsub">마이데일리 · 박서연 기자 · 본문 791자 · 사진 2장</span></div>
 <span class="chev">›</span></a>
 <a class="row" href="#p2">
 <img data-k="i5" alt="" data-file="03_현빈.jpg" >
 <div class="rmeta"><span class="rbadge">3순위 추천</span>
-<b>23년 동안 안 하던 걸 현빈이 했다</b>
-<span class="rsub">스포츠서울 · 윤동언 기자 · 본문 918자 · 사진 2장</span></div>
+<b>현빈, 23년 동안 안 하던 걸 했다</b>
+<span class="rsub">스포츠서울 · 윤동언 기자 · 본문 881자 · 사진 2장</span></div>
 <span class="chev">›</span></a>
 <a class="row" href="#p3">
 <img data-k="i7" alt="" data-file="04_cover.jpg" >
 <div class="rmeta"><span class="rbadge">4순위 추천</span>
-<b>&quot;사실 내가 더 뛰어놈&quot; 김지영의 자백</b>
-<span class="rsub">스포츠조선 · 이게은 기자 · 본문 897자 · 사진 2장</span></div>
+<b>김지영 &quot;사실 내가 더 뛰어놈&quot;…아들과 콘서트</b>
+<span class="rsub">스포츠조선 · 이게은 기자 · 본문 860자 · 사진 2장</span></div>
 <span class="chev">›</span></a>
 <a class="row" href="#p4">
 <img data-k="i9" alt="" data-file="05_cover.jpg" >
 <div class="rmeta"><span class="rbadge">5순위 추천</span>
-<b>보러 갔다가 담요 덮고 잠든 고현정</b>
-<span class="rsub">스타뉴스 · 김나연 기자 · 본문 868자 · 사진 2장</span></div>
+<b>고현정, 보러 갔다가 담요 덮고 잠들었다</b>
+<span class="rsub">스타뉴스 · 김나연 기자 · 본문 832자 · 사진 2장</span></div>
 <span class="chev">›</span></a>
   <p class="seclabel">건너뛰기 — 조회수는 높지만 홈판에 맞지 않습니다</p>
   <div class="row skip"><div class="sk">1위</div>
@@ -205,13 +208,13 @@ a.row:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
 
 <section class="view" id="p0">
 <div class="topbar"><div class="tnav"><a class="back" href="#list">← 목록</a>
-<span class="src2">OSEN · 최이정 기자</span></div>
+<a class="srclink" href="https://news.nate.com/view/20260826n03817" target="_blank" rel="noopener">OSEN · 최이정 기자 · 원문 기사 ↗</a></div>
 <p class="tplabel">제목 — 눌러서 고르세요</p>
-<div class="tpick"><button class="topt active" type="button" data-t="기름값도 없던 부부가 11년 만에 산 집"><span class="tnum">1</span>기름값도 없던 부부가 11년 만에 산 집<span class='tmark'>추천</span></button>
-<button class="topt" type="button" data-t="조지환·박혜민, 배달하다 다리 골절…그 뒤 11년"><span class="tnum">2</span>조지환·박혜민, 배달하다 다리 골절…그 뒤 11년</button>
-<button class="topt" type="button" data-t="&quot;전월세만 전전긍긍하던 우리가&quot; 조지환 부부의 손편지"><span class="tnum">3</span>&quot;전월세만 전전긍긍하던 우리가&quot; 조지환 부부의 손편지</button>
+<div class="tpick"><button class="topt active" type="button" data-t="조지환·박혜민, 기름값도 없던 부부의 11년"><span class="tnum">1</span>조지환·박혜민, 기름값도 없던 부부의 11년<span class='tmark'>추천</span></button>
+<button class="topt" type="button" data-t="조지환, 배달하다 다리 골절…그 뒤 11년 만에 내 집"><span class="tnum">2</span>조지환, 배달하다 다리 골절…그 뒤 11년 만에 내 집</button>
+<button class="topt" type="button" data-t="박혜민 &quot;전월세만 전전긍긍하던 우리가&quot; 손편지 공개"><span class="tnum">3</span>박혜민 &quot;전월세만 전전긍긍하던 우리가&quot; 손편지 공개</button>
 <button class="topt" type="button" data-t="조혜련 동생 조지환, 결혼 11년 만에 내 집 마련"><span class="tnum">4</span>조혜련 동생 조지환, 결혼 11년 만에 내 집 마련</button>
-<button class="topt" type="button" data-t="생활고 고백했던 부부가 구독자 20만이 되기까지"><span class="tnum">5</span>생활고 고백했던 부부가 구독자 20만이 되기까지</button></div>
+<button class="topt" type="button" data-t="조지환·박혜민, 생활고 고백에서 구독자 20만까지"><span class="tnum">5</span>조지환·박혜민, 생활고 고백에서 구독자 20만까지</button></div>
 <h1 class="vh" data-title></h1></div>
 <div class="actionbar">
 <button class="copyall" type="button">본문 복사</button></div>
@@ -355,9 +358,7 @@ Cmd+C 로 복사하면 사진이 아니라 주소가 복사돼 네이버가 <b>�
 <p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">· 과거 생활고 고백 → 구독자 20만 크리에이터로 전환</span></p>
 <p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">· &quot;랜선 집들이도 기대해주세요&quot;</span></p>
 <p style="margin:0;"><br></p>
-<p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">축하할 만한 소식이네요 👏</span></p>
-<p style="margin:0;"><br></p>
-<p style="text-align:center;margin:0;"><span style="font-size:12px;color:#999999;">※ 2026년 8월 26일 OSEN 보도를 참고해 재구성했습니다.</span></p></div>
+<p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">축하할 만한 소식이네요 👏</span></p></div>
 <div class="plainSource" hidden>&quot;결혼 11년,
 전월세만 전전긍긍하던 우리가
 드디어 내 집 마련을 합니다.&quot;
@@ -479,22 +480,20 @@ OSEN이 26일 보도한
 · 과거 생활고 고백 → 구독자 20만 크리에이터로 전환
 · &quot;랜선 집들이도 기대해주세요&quot;
 
-축하할 만한 소식이네요 👏
-
-※ 2026년 8월 26일 OSEN 보도를 참고해 재구성했습니다.</div>
+축하할 만한 소식이네요 👏</div>
 <div class="tagSource" hidden>#조지환 #박혜민 #조혜련동생 #내집마련 #연예뉴스 #오늘의연예 #셀럽근황 #부부이야기 #크리에이터 #연예계소식</div>
 <div class="why2"><b>이 소재를 고른 이유</b><p>생활고 → 반전이라는 서사가 완결돼 있습니다. 논란 요소가 없고 댓글이 축하로 모입니다. 자동 필터에서도 74점으로 1위였습니다.</p>
-<b>추천 제목 1번</b><p>'기름값'과 '11년'이라는 구체적인 숫자가 서사를 압축합니다. 인물명 없이도 궁금해집니다.</p></div>
+<b>추천 제목 1번</b><p>인물명이 맨 앞에 오고, '기름값'과 '11년'이 서사를 압축합니다.</p></div>
 </section>
 <section class="view" id="p1">
 <div class="topbar"><div class="tnav"><a class="back" href="#list">← 목록</a>
-<span class="src2">마이데일리 · 박서연 기자</span></div>
+<a class="srclink" href="https://news.nate.com/view/20260825n18129" target="_blank" rel="noopener">마이데일리 · 박서연 기자 · 원문 기사 ↗</a></div>
 <p class="tplabel">제목 — 눌러서 고르세요</p>
-<div class="tpick"><button class="topt active" type="button" data-t="&quot;덜덜덜, 아 왜 떨리지&quot; 김보라가 올린 둘째 소식"><span class="tnum">1</span>&quot;덜덜덜, 아 왜 떨리지&quot; 김보라가 올린 둘째 소식<span class='tmark'>추천</span></button>
-<button class="topt" type="button" data-t="팀·김보라 둘째 임신…셋에서 넷으로"><span class="tnum">2</span>팀·김보라 둘째 임신…셋에서 넷으로</button>
-<button class="topt" type="button" data-t="임신 테스트기 본 팀이 말보다 먼저 한 행동"><span class="tnum">3</span>임신 테스트기 본 팀이 말보다 먼저 한 행동</button>
-<button class="topt" type="button" data-t="8년 연애 끝 결혼한 팀, 둘째 아빠 된다"><span class="tnum">4</span>8년 연애 끝 결혼한 팀, 둘째 아빠 된다</button>
-<button class="topt" type="button" data-t="김보라 &quot;찬용이 동생이 찾아왔어요&quot; 임밍아웃"><span class="tnum">5</span>김보라 &quot;찬용이 동생이 찾아왔어요&quot; 임밍아웃</button></div>
+<div class="tpick"><button class="topt active" type="button" data-t="김보라 &quot;덜덜덜, 아 왜 떨리지&quot;…팀 둘째 임신"><span class="tnum">1</span>김보라 &quot;덜덜덜, 아 왜 떨리지&quot;…팀 둘째 임신<span class='tmark'>추천</span></button>
+<button class="topt" type="button" data-t="팀·김보라, 43살에 둘째 임신…셋에서 넷으로"><span class="tnum">2</span>팀·김보라, 43살에 둘째 임신…셋에서 넷으로</button>
+<button class="topt" type="button" data-t="팀, 임신 테스트기 보고 말보다 먼저 한 행동"><span class="tnum">3</span>팀, 임신 테스트기 보고 말보다 먼저 한 행동</button>
+<button class="topt" type="button" data-t="김보라 &quot;찬용이 동생이 찾아왔어요&quot; 임밍아웃"><span class="tnum">4</span>김보라 &quot;찬용이 동생이 찾아왔어요&quot; 임밍아웃</button>
+<button class="topt" type="button" data-t="8년 연애 끝 결혼한 팀, 둘째 아빠 된다"><span class="tnum">5</span>8년 연애 끝 결혼한 팀, 둘째 아빠 된다</button></div>
 <h1 class="vh" data-title></h1></div>
 <div class="actionbar">
 <button class="copyall" type="button">본문 복사</button></div>
@@ -632,9 +631,7 @@ Cmd+C 로 복사하면 사진이 아니라 주소가 복사돼 네이버가 <b>�
 <p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">· 2021년 결혼, 슬하에 아들 한 명</span></p>
 <p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">· 8년 연애 끝에 이룬 가정</span></p>
 <p style="margin:0;"><br></p>
-<p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">건강하게 만나기를 바랍니다 🤍</span></p>
-<p style="margin:0;"><br></p>
-<p style="text-align:center;margin:0;"><span style="font-size:12px;color:#999999;">※ 2026년 8월 26일 마이데일리 보도와 김보라 SNS 게시글을 참고해 재구성했습니다.</span></p></div>
+<p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">건강하게 만나기를 바랍니다 🤍</span></p></div>
 <div class="plainSource" hidden>&quot;덜덜덜…
 아 왜 떨리지…
 
@@ -750,21 +747,19 @@ Cmd+C 로 복사하면 사진이 아니라 주소가 복사돼 네이버가 <b>�
 · 2021년 결혼, 슬하에 아들 한 명
 · 8년 연애 끝에 이룬 가정
 
-건강하게 만나기를 바랍니다 🤍
-
-※ 2026년 8월 26일 마이데일리 보도와 김보라 SNS 게시글을 참고해 재구성했습니다.</div>
+건강하게 만나기를 바랍니다 🤍</div>
 <div class="tagSource" hidden>#팀 #김보라 #둘째임신 #임밍아웃 #연예뉴스 #오늘의연예 #셀럽근황 #가수팀 #연예계소식 #축하해요</div>
 <div class="why2"><b>이 소재를 고른 이유</b><p>경사 소식은 홈판에서 가장 안전하고 반응이 좋습니다. 영상 속 리액션이 있어 이야깃거리도 충분합니다.</p>
-<b>추천 제목 1번</b><p>본인이 쓴 말 그대로라 진정성이 있고, '덜덜덜'이 시선을 잡습니다.</p></div>
+<b>추천 제목 1번</b><p>인물명으로 시작하면서 실제 문장을 그대로 써 진정성이 있습니다.</p></div>
 </section>
 <section class="view" id="p2">
 <div class="topbar"><div class="tnav"><a class="back" href="#list">← 목록</a>
-<span class="src2">스포츠서울 · 윤동언 기자</span></div>
+<a class="srclink" href="https://news.nate.com/view/20260826n00835" target="_blank" rel="noopener">스포츠서울 · 윤동언 기자 · 원문 기사 ↗</a></div>
 <p class="tplabel">제목 — 눌러서 고르세요</p>
-<div class="tpick"><button class="topt active" type="button" data-t="23년 동안 안 하던 걸 현빈이 했다"><span class="tnum">1</span>23년 동안 안 하던 걸 현빈이 했다<span class='tmark'>추천</span></button>
-<button class="topt" type="button" data-t="현빈, 데뷔 23년 만에 첫 버라이어티 예능"><span class="tnum">2</span>현빈, 데뷔 23년 만에 첫 버라이어티 예능</button>
-<button class="topt" type="button" data-t="&quot;손에 땀이&quot; 유재석도 놓치지 않은 현빈의 손"><span class="tnum">3</span>&quot;손에 땀이&quot; 유재석도 놓치지 않은 현빈의 손</button>
-<button class="topt" type="button" data-t="핀셋 들고 손 떠는 현빈, 9월 1일 방송"><span class="tnum">4</span>핀셋 들고 손 떠는 현빈, 9월 1일 방송</button>
+<div class="tpick"><button class="topt active" type="button" data-t="현빈, 23년 동안 안 하던 걸 했다"><span class="tnum">1</span>현빈, 23년 동안 안 하던 걸 했다<span class='tmark'>추천</span></button>
+<button class="topt" type="button" data-t="현빈, 데뷔 23년 만에 첫 버라이어티 예능 출연"><span class="tnum">2</span>현빈, 데뷔 23년 만에 첫 버라이어티 예능 출연</button>
+<button class="topt" type="button" data-t="현빈 손에 땀까지…유재석도 놓치지 않았다"><span class="tnum">3</span>현빈 손에 땀까지…유재석도 놓치지 않았다</button>
+<button class="topt" type="button" data-t="현빈, 핀셋 들고 손 떨었다…9월 1일 방송"><span class="tnum">4</span>현빈, 핀셋 들고 손 떨었다…9월 1일 방송</button>
 <button class="topt" type="button" data-t="현빈이 23년간 이 자리를 피해온 이유"><span class="tnum">5</span>현빈이 23년간 이 자리를 피해온 이유</button></div>
 <h1 class="vh" data-title></h1></div>
 <div class="actionbar">
@@ -902,9 +897,7 @@ Cmd+C 로 복사하면 사진이 아니라 주소가 복사돼 네이버가 <b>�
 <p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">· 우도환과 동반 출연</span></p>
 <p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">· 디즈니+ '메이드 인 코리아' 시즌2 공개 앞두고</span></p>
 <p style="margin:0;"><br></p>
-<p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">어떤 모습일지 궁금해지네요 😄</span></p>
-<p style="margin:0;"><br></p>
-<p style="text-align:center;margin:0;"><span style="font-size:12px;color:#999999;">※ 2026년 8월 26일 스포츠서울 보도를 참고해 재구성했습니다.</span></p></div>
+<p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">어떤 모습일지 궁금해지네요 😄</span></p></div>
 <div class="plainSource" hidden>&quot;아, 그 '도전'이
 너무 싫어&quot;
 
@@ -1019,22 +1012,20 @@ SBS '틈만나면,'에
 · 우도환과 동반 출연
 · 디즈니+ '메이드 인 코리아' 시즌2 공개 앞두고
 
-어떤 모습일지 궁금해지네요 😄
-
-※ 2026년 8월 26일 스포츠서울 보도를 참고해 재구성했습니다.</div>
+어떤 모습일지 궁금해지네요 😄</div>
 <div class="tagSource" hidden>#현빈 #틈만나면 #우도환 #유재석 #유연석 #메이드인코리아 #연예뉴스 #오늘의연예 #SBS예능 #연예계소식</div>
 <div class="why2"><b>이 소재를 고른 이유</b><p>인지도가 가장 높은 인물입니다. '23년 만에 처음'이라는 프레임이 강하고 방송 예정이라 검색 유입이 이어집니다.</p>
-<b>추천 제목 1번</b><p>인물명을 뒤에 두고 '23년'을 앞세워 궁금증을 만듭니다. 짧아서 모바일에서 안 잘립니다.</p></div>
+<b>추천 제목 1번</b><p>인물명이 맨 앞에 오고 '23년'이 곧바로 궁금증을 만듭니다. 짧아 모바일에서 안 잘립니다.</p></div>
 </section>
 <section class="view" id="p3">
 <div class="topbar"><div class="tnav"><a class="back" href="#list">← 목록</a>
-<span class="src2">스포츠조선 · 이게은 기자</span></div>
+<a class="srclink" href="https://news.nate.com/view/20260826n03583" target="_blank" rel="noopener">스포츠조선 · 이게은 기자 · 원문 기사 ↗</a></div>
 <p class="tplabel">제목 — 눌러서 고르세요</p>
-<div class="tpick"><button class="topt active" type="button" data-t="&quot;사실 내가 더 뛰어놈&quot; 김지영의 자백"><span class="tnum">1</span>&quot;사실 내가 더 뛰어놈&quot; 김지영의 자백<span class='tmark'>추천</span></button>
+<div class="tpick"><button class="topt active" type="button" data-t="김지영 &quot;사실 내가 더 뛰어놈&quot;…아들과 콘서트"><span class="tnum">1</span>김지영 &quot;사실 내가 더 뛰어놈&quot;…아들과 콘서트<span class='tmark'>추천</span></button>
 <button class="topt" type="button" data-t="김지영, 남성진 빼닮은 19세 아들 공개"><span class="tnum">2</span>김지영, 남성진 빼닮은 19세 아들 공개</button>
-<button class="topt" type="button" data-t="3대가 배우인 집, 김지영이 공개한 아들"><span class="tnum">3</span>3대가 배우인 집, 김지영이 공개한 아들</button>
-<button class="topt" type="button" data-t="입시생 아들과 빅뱅 콘서트 간 엄마 김지영"><span class="tnum">4</span>입시생 아들과 빅뱅 콘서트 간 엄마 김지영</button>
-<button class="topt" type="button" data-t="강동원 닮은꼴로 화제였던 그 아이, 19세 됐다"><span class="tnum">5</span>강동원 닮은꼴로 화제였던 그 아이, 19세 됐다</button></div>
+<button class="topt" type="button" data-t="김지영·남성진 아들, 3대가 배우인 집안"><span class="tnum">3</span>김지영·남성진 아들, 3대가 배우인 집안</button>
+<button class="topt" type="button" data-t="김지영, 입시생 아들과 빅뱅 콘서트 다녀왔다"><span class="tnum">4</span>김지영, 입시생 아들과 빅뱅 콘서트 다녀왔다</button>
+<button class="topt" type="button" data-t="남성진 아들, 강동원 닮은꼴에서 19세가 됐다"><span class="tnum">5</span>남성진 아들, 강동원 닮은꼴에서 19세가 됐다</button></div>
 <h1 class="vh" data-title></h1></div>
 <div class="actionbar">
 <button class="copyall" type="button">본문 복사</button></div>
@@ -1170,9 +1161,7 @@ Cmd+C 로 복사하면 사진이 아니라 주소가 복사돼 네이버가 <b>�
 <p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">· 아들은 2019년 MBN '모던 패밀리' 출연 이력</span></p>
 <p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">· 남편 남성진은 남일우·김용림 부부의 아들</span></p>
 <p style="margin:0;"><br></p>
-<p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">입시 잘 마무리하길 응원합니다 📣</span></p>
-<p style="margin:0;"><br></p>
-<p style="text-align:center;margin:0;"><span style="font-size:12px;color:#999999;">※ 2026년 8월 26일 스포츠조선 보도를 참고해 재구성했습니다.</span></p></div>
+<p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">입시 잘 마무리하길 응원합니다 📣</span></p></div>
 <div class="plainSource" hidden>&quot;입시생 아들
 스트레스 풀어주기!!..
 
@@ -1286,22 +1275,20 @@ MBN '모던 패밀리'에
 · 아들은 2019년 MBN '모던 패밀리' 출연 이력
 · 남편 남성진은 남일우·김용림 부부의 아들
 
-입시 잘 마무리하길 응원합니다 📣
-
-※ 2026년 8월 26일 스포츠조선 보도를 참고해 재구성했습니다.</div>
+입시 잘 마무리하길 응원합니다 📣</div>
 <div class="tagSource" hidden>#김지영 #남성진 #김용림 #남일우 #배우가족 #빅뱅콘서트 #연예뉴스 #오늘의연예 #셀럽근황 #연예계소식</div>
 <div class="why2"><b>이 소재를 고른 이유</b><p>3대가 배우인 집안이라는 배경이 이야깃거리가 됩니다. 가볍고 확산이 빠릅니다.</p>
-<b>추천 제목 1번</b><p>아들 얼굴이 아니라 엄마의 한마디를 앞세워 훈훈하게 잡았습니다.</p></div>
+<b>추천 제목 1번</b><p>인물명으로 시작하면서 아들 얼굴이 아니라 엄마의 한마디를 앞세웠습니다.</p></div>
 </section>
 <section class="view" id="p4">
 <div class="topbar"><div class="tnav"><a class="back" href="#list">← 목록</a>
-<span class="src2">스타뉴스 · 김나연 기자</span></div>
+<a class="srclink" href="https://news.nate.com/view/20260826n04682" target="_blank" rel="noopener">스타뉴스 · 김나연 기자 · 원문 기사 ↗</a></div>
 <p class="tplabel">제목 — 눌러서 고르세요</p>
-<div class="tpick"><button class="topt active" type="button" data-t="보러 갔다가 담요 덮고 잠든 고현정"><span class="tnum">1</span>보러 갔다가 담요 덮고 잠든 고현정<span class='tmark'>추천</span></button>
+<div class="tpick"><button class="topt active" type="button" data-t="고현정, 보러 갔다가 담요 덮고 잠들었다"><span class="tnum">1</span>고현정, 보러 갔다가 담요 덮고 잠들었다<span class='tmark'>추천</span></button>
 <button class="topt" type="button" data-t="고현정, '오디세이' 보다 숙면…&quot;중간부터 기억 안 나&quot;"><span class="tnum">2</span>고현정, '오디세이' 보다 숙면…&quot;중간부터 기억 안 나&quot;</button>
-<button class="topt" type="button" data-t="21일 연속 1위 그 영화를 보다가 잠들었다"><span class="tnum">3</span>21일 연속 1위 그 영화를 보다가 잠들었다</button>
+<button class="topt" type="button" data-t="고현정, 21일 연속 1위 그 영화 보다가 잠들었다"><span class="tnum">3</span>고현정, 21일 연속 1위 그 영화 보다가 잠들었다</button>
 <button class="topt" type="button" data-t="고현정 &quot;저랑 같이 보러 가실 분&quot; 재관람 예고"><span class="tnum">4</span>고현정 &quot;저랑 같이 보러 가실 분&quot; 재관람 예고</button>
-<button class="topt" type="button" data-t="746만이 본 영화 앞에서 고현정이 한 솔직한 고백"><span class="tnum">5</span>746만이 본 영화 앞에서 고현정이 한 솔직한 고백</button></div>
+<button class="topt" type="button" data-t="고현정, 746만이 본 영화 앞에서 한 솔직한 고백"><span class="tnum">5</span>고현정, 746만이 본 영화 앞에서 한 솔직한 고백</button></div>
 <h1 class="vh" data-title></h1></div>
 <div class="actionbar">
 <button class="copyall" type="button">본문 복사</button></div>
@@ -1432,9 +1419,7 @@ Cmd+C 로 복사하면 사진이 아니라 주소가 복사돼 네이버가 <b>�
 <p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">· &quot;저랑 같이 보러 가실 분&quot; 재관람 예고</span></p>
 <p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">· '오디세이' 21일 연속 박스오피스 1위, 누적 746만 명</span></p>
 <p style="margin:0;"><br></p>
-<p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">이 정도면 홍보대사네요 😴</span></p>
-<p style="margin:0;"><br></p>
-<p style="text-align:center;margin:0;"><span style="font-size:12px;color:#999999;">※ 2026년 8월 26일 스타뉴스 보도를 참고해 재구성했습니다.</span></p></div>
+<p style="text-align:center;margin:0;color:#000000;"><span style="font-size:16px;">이 정도면 홍보대사네요 😴</span></p></div>
 <div class="plainSource" hidden>&quot;너무나 보고 싶던
 '오디세이' 영화를
 
@@ -1543,12 +1528,10 @@ Cmd+C 로 복사하면 사진이 아니라 주소가 복사돼 네이버가 <b>�
 · &quot;저랑 같이 보러 가실 분&quot; 재관람 예고
 · '오디세이' 21일 연속 박스오피스 1위, 누적 746만 명
 
-이 정도면 홍보대사네요 😴
-
-※ 2026년 8월 26일 스타뉴스 보도를 참고해 재구성했습니다.</div>
+이 정도면 홍보대사네요 😴</div>
 <div class="tagSource" hidden>#고현정 #오디세이 #크리스토퍼놀란 #박스오피스 #영화추천 #연예뉴스 #오늘의연예 #셀럽근황 #극장가 #연예계소식</div>
 <div class="why2"><b>이 소재를 고른 이유</b><p>가볍고 유머러스합니다. 746만 관객 영화라 검색량이 이미 큰 키워드에 올라탈 수 있습니다.</p>
-<b>추천 제목 1번</b><p>상황이 그대로 그려지고, 인물명이 뒤에 와서 한 번 더 눈이 갑니다.</p></div>
+<b>추천 제목 1번</b><p>인물명이 맨 앞에 오고, 상황이 그대로 그려집니다.</p></div>
 </section>
 
 <script>

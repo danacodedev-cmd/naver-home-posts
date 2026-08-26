@@ -2,43 +2,48 @@
  "date": "2026.08.26 · 네이트 연예 관심뉴스",
  "posts": [
   {
-   "title": "기름값도 없던 부부가 11년 만에 산 집",
+   "title": "조지환·박혜민, 기름값도 없던 부부의 11년",
    "cover": "covers/p0.jpg",
    "src": "OSEN · 최이정 기자",
+   "url": "https://news.nate.com/view/20260826n03817",
    "anchor": "p0",
-   "chars": 1017,
+   "chars": 981,
    "photos": 2
   },
   {
-   "title": "\"덜덜덜, 아 왜 떨리지\" 김보라가 올린 둘째 소식",
+   "title": "김보라 \"덜덜덜, 아 왜 떨리지\"…팀 둘째 임신",
    "cover": "covers/p1.jpg",
    "src": "마이데일리 · 박서연 기자",
+   "url": "https://news.nate.com/view/20260825n18129",
    "anchor": "p1",
-   "chars": 810,
+   "chars": 760,
    "photos": 2
   },
   {
-   "title": "23년 동안 안 하던 걸 현빈이 했다",
+   "title": "현빈, 23년 동안 안 하던 걸 했다",
    "cover": "covers/p2.jpg",
    "src": "스포츠서울 · 윤동언 기자",
+   "url": "https://news.nate.com/view/20260826n00835",
    "anchor": "p2",
-   "chars": 897,
+   "chars": 860,
    "photos": 2
   },
   {
-   "title": "\"사실 내가 더 뛰어놈\" 김지영의 자백",
+   "title": "김지영 \"사실 내가 더 뛰어놈\"…아들과 콘서트",
    "cover": "covers/p3.jpg",
    "src": "스포츠조선 · 이게은 기자",
+   "url": "https://news.nate.com/view/20260826n03583",
    "anchor": "p3",
-   "chars": 861,
+   "chars": 824,
    "photos": 2
   },
   {
-   "title": "보러 갔다가 담요 덮고 잠든 고현정",
+   "title": "고현정, 보러 갔다가 담요 덮고 잠들었다",
    "cover": "covers/p4.jpg",
    "src": "스타뉴스 · 김나연 기자",
+   "url": "https://news.nate.com/view/20260826n04682",
    "anchor": "p4",
-   "chars": 849,
+   "chars": 813,
    "photos": 2
   }
  ]
