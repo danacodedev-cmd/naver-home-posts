@@ -1,0 +1,95 @@
+{
+ "date": "2026.09.11 · 네이트 연예 관심뉴스",
+ "posts": [
+  {
+   "title": "이민정, 6년 만의 드라마 복귀작이 헤맨 진짜 이유",
+   "cover": "covers/p0.jpg",
+   "src": "이데일리 · 서병수 기자",
+   "url": "https://news.nate.com/view/20260911n02663",
+   "anchor": "p0",
+   "chars": 707,
+   "photos": 2
+  },
+  {
+   "title": "박수홍, 98억 소송 선고 10월 23일로 밀렸다",
+   "cover": "covers/p1.jpg",
+   "src": "뉴스엔 · 이슬기 기자",
+   "url": "https://news.nate.com/view/20260911n02182",
+   "anchor": "p1",
+   "chars": 644,
+   "photos": 2
+  },
+  {
+   "title": "백종원, 방송 없어도 제자들은 스승 안 잊었다",
+   "cover": "covers/p2.jpg",
+   "src": "뉴스엔 · 이슬기 기자",
+   "url": "https://news.nate.com/view/20260911n03759",
+   "anchor": "p2",
+   "chars": 623,
+   "photos": 2
+  },
+  {
+   "title": "노윤서, 미대 나온 티 재첩 채취 현장서 냈다",
+   "cover": "covers/p3.jpg",
+   "src": "뉴스엔 · 이하나 기자",
+   "url": "https://news.nate.com/view/20260911n02406",
+   "anchor": "p3",
+   "chars": 666,
+   "photos": 2
+  },
+  {
+   "title": "박해일 '사람은 늙죠' 49세 동안 비결 직접 밝혔다",
+   "cover": "covers/p4.jpg",
+   "src": "엑스포츠뉴스 · 윤현지 기자",
+   "url": "https://news.nate.com/view/20260911n02522",
+   "anchor": "p4",
+   "chars": 641,
+   "photos": 2
+  },
+  {
+   "title": "김유정·김소현, 하루 차이로 패션 대결 붙었다",
+   "cover": "covers/p5.jpg",
+   "src": "마이데일리 · 김도형 기자",
+   "url": "https://news.nate.com/view/20260911n02374",
+   "anchor": "p5",
+   "chars": 582,
+   "photos": 2
+  },
+  {
+   "title": "앤 해서웨이, 만삭 근황 공개에 황당 반응 나왔다",
+   "cover": "covers/p6.jpg",
+   "src": "마이데일리 · 곽명동 기자",
+   "url": "https://news.nate.com/view/20260910n20282",
+   "anchor": "p6",
+   "chars": 589,
+   "photos": 2
+  },
+  {
+   "title": "국가비, SNS 멈췄던 이유 4개월 만에 이렇게 풀었다",
+   "cover": "covers/p7.jpg",
+   "src": "스포츠조선 · 조민정 기자",
+   "url": "https://news.nate.com/view/20260911n00318",
+   "anchor": "p7",
+   "chars": 622,
+   "photos": 2
+  },
+  {
+   "title": "탑, 자카르타 공연 9일 앞두고 돌연 취소됐다",
+   "cover": "covers/p8.jpg",
+   "src": "스포츠조선 · 조민정 기자",
+   "url": "https://news.nate.com/view/20260911n00070",
+   "anchor": "p8",
+   "chars": 611,
+   "photos": 2
+  },
+  {
+   "title": "기안84, AI 파트너에게 차인 최초의 인류가 됐다",
+   "cover": "covers/p9.jpg",
+   "src": "SBS연예뉴스 · 김효정 에디터",
+   "url": "https://news.nate.com/view/20260911n00830",
+   "anchor": "p9",
+   "chars": 652,
+   "photos": 2
+  }
+ ]
+}
